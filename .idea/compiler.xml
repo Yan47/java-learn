@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="test" />
         <module name="netty" />
-        <module name="basic" />
+        <module name="vertx" />
         <module name="mqttsgeneratetoken" />
-        <module name="HTTP" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic" target="1.8" />
+      <module name="HTTP" target="1.8" />
+      <module name="safasdf" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
