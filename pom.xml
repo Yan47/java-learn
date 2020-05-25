@@ -12,6 +12,8 @@
         <module>netty</module>
         <module>basic</module>
         <module>test</module>
+        <module>mqtts-generate-token</module>
+        <module>HTTP</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
