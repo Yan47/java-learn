@@ -2,11 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/HTTP" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mqtts-generate-token" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test/safasdf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vertx" charset="UTF-8" />
   </component>
 </project>

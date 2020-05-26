@@ -21,6 +21,9 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <lombok.version>1.18.2</lombok.version>
         <logback.version>1.2.3</logback.version>
+        <protobuf.plugin.version>0.5.0</protobuf.plugin.version>
+        <protoc.version>3.6.1</protoc.version>
+        <grpc.version>1.16.1</grpc.version>
     </properties>
 
     <dependencies>
