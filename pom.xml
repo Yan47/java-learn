@@ -12,6 +12,8 @@
         <module>netty</module>
         <module>vertx</module>
         <module>mqtts-generate-token</module>
+        <module>乱七八糟的</module>
+        <module>wildThings</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,6 +35,15 @@
             <version>${lombok.version}</version>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <!--不设置scope就是全局-->
+            <!--<scope>test</scope>-->
+        </dependency>
+
         <!--  Logback 是一个 Java 领域的日志框架。它被认为是 Log4J 的继承人。-->
         <!--  Logback 主要由三个模块组成：logback-core、logback-classic、logback-access-->
         <dependency>
