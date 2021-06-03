@@ -15,7 +15,7 @@ public class sumToTarget {
         Collections.sort(list);
 
         int count = 0;
-        // 将 选择一个数的组合数、选择两个数的组合数、...选择n个数的组合数 相加
+        // 将选择一个数的组合数、选择两个数的组合数、...选择n个数的组合数 相加
         for (int numToSelect = 4; numToSelect <= list.size(); numToSelect++) {
             count += getSchemeNumByNumToSelect(list, numToSelect, sum, 0);
         }
@@ -38,7 +38,6 @@ public class sumToTarget {
             double finalListSum = 0;
             for (int i = 0; i < finalList.size(); ++i) {
                 finalListSum += finalList.get(i);
-//                System.out.printf("%f,", finalList.get(i));
             }
             if (sumToSelect <= 48) {
                 for (int i = 0; i < finalList.size(); ++i) {
@@ -75,9 +74,6 @@ public class sumToTarget {
 
                 count += getSchemeNumByNumToSelect(arr, numToSelect - 1, sumToSelect - arr.get(i), i + 1);
 
-//                if(count>=1){
-//                    System.out.printf("%d个数：%f万元。目前剩余和为：%f万元\n", numToSelect,arr.get(i),sumToSelect );
-//                }
             }
         }
         if (!finalList.isEmpty()) {
